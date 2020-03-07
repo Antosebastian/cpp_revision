@@ -79,8 +79,7 @@ void sort(int* pcount)
         case 3:
             qsort(list, *pcount, sizeof(database), cmpar2);
             break;
-    }
-    
+    }    
     print(pcount);
     return;
 }
