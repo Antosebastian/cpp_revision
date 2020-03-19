@@ -83,7 +83,6 @@ void sort(int* pcount)
     print(pcount);
     return;
 }
-
 void write(char* file, int* pcount)
 {
     fstream write_file;
